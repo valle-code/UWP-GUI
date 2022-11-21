@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="ProyectoUWPEV1.Vistas.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoUWPEV1.Vistas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="1280" d:DesignHeight="720">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="1080" VerticalAlignment="Center" Width="1919" 
+        Source="/Assets/3051-rojos.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="151" Margin="78,25,0,0" 
+        VerticalAlignment="Top" Width="270" 
+        Source="/Assets/ad9b00c0-ab9b-4c38-b5b7-f603b39c2ca5.png" Stretch="Fill"/>
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Height="136" Margin="400,39,0,0" 
+        TextWrapping="Wrap" Text="DVRACING Tienda" 
+        VerticalAlignment="Top" Width="711" FontSize="100" 
+                                                      FontFamily="Impact"/>
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="241" Margin="760,260,0,0" 
+            VerticalAlignment="Top" Width="348" 
+            Source="/Assets/Flag.gif" Stretch="Fill"/>
+            <TextBlock x:ConnectionId='4' Height="282" Margin="74,237,0,0" TextWrapping="Wrap" 
+            Text="Desde DVRacing buscamos a amantes de la velocidad que quieran inciarse en el maravilloso mundo del automovilismo. 
+            Somos proveedores oficiales de marcas tales como Subaru, Mitsubishi, Nissan, Audi, Peugeot y Ford, que operamos por toda España. Aquí podrás comprar coches, piezas, recmbios y  euqipamiento deportivo tales como cascos, monos, guantes y botas ignifugas." 
+            VerticalAlignment="Top" Width="484" FontSize="25" FontFamily="Arial" 
+            HorizontalAlignment="Left"                                                />
+        </Grid>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="116" Margin="78,575,0,0" 
+        TextWrapping="Wrap" Text="Aprovecha las ofertas de navidad!!!" 
+        VerticalAlignment="Top" Width="1173" 
+                                                        
+        FontSize="65" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
+

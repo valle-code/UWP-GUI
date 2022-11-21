@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="ProyectoUWPEV1.Vistas.Registro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoUWPEV1.Vistas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="1280" d:DesignHeight="720">
+
+    <Grid>
+        <Grid>
+            <Image HorizontalAlignment="Center" Height="802" 
+            VerticalAlignment="Center" Width="1592" Source="/Assets/3051-rojos.jpg" Stretch="Fill"/>
+            <Button x:Name="btnPerfil" Content="" Margin="554,95,0,0" 
+            VerticalAlignment="Top" Height="174" Width="210" RenderTransformOrigin="0.57,-3.132" 
+            Click="btnPerfil_Click" CornerRadius="100,100,100,100">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/Usuario.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+
+            <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="33" 
+            Margin="245,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" 
+            Width="303" TextChanged="TextBox_TextChanged" PlaceholderText="Nombre" CornerRadius="10,10,10,10"/>
+            <TextBox x:Name="txtNombre_Copy" HorizontalAlignment="Left" Height="32" 
+            Margin="245,416,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" 
+            TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.499,0.485" 
+            PlaceholderText="Email" CornerRadius="10,10,10,10"/>
+            <PasswordBox HorizontalAlignment="Left" Height="32" Margin="245,506,0,0" 
+            VerticalAlignment="Top" Width="303" PlaceholderText="Contraseña" CornerRadius="10,10,10,10"/>
+            <PasswordBox HorizontalAlignment="Left" Height="32" Margin="777,328,0,0" 
+            VerticalAlignment="Top" Width="305" PlaceholderText="Confirmar Contraseña " CornerRadius="10,10,10,10"/>
+            <TextBlock HorizontalAlignment="Left" Height="26" Margin="245,296,0,0" 
+            TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Width="80"/>
+            <TextBlock HorizontalAlignment="Left" Height="26" Margin="245,392,0,0" 
+            TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top" Width="80"/>
+            <TextBlock HorizontalAlignment="Left" Height="26" Margin="245,483,0,0" 
+            TextWrapping="Wrap" Text="Contraseña:" VerticalAlignment="Top" Width="80"/>
+            <TextBlock HorizontalAlignment="Left" Height="28" Margin="777,305,0,0" 
+            TextWrapping="Wrap" Text="Confirmar Contraseña:" VerticalAlignment="Top" Width="160"/>
+            <TextBlock HorizontalAlignment="Left" Height="28" Margin="777,392,0,0" 
+            TextWrapping="Wrap" Text="Método de pago:" VerticalAlignment="Top" Width="160"/>
+            <TextBlock HorizontalAlignment="Left" Height="28" Margin="777,483,0,0" 
+            TextWrapping="Wrap" Text="Región:" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.414,0.786"/>
+            <Button Content="Registrarse" Height="62" Margin="524,608,0,0" 
+            VerticalAlignment="Top" Width="292" CornerRadius="30,30,30,30" Background="Black"/>
+        </Grid>
+        <DatePicker Margin="1379,476,0,0" VerticalAlignment="Top" Width="0"/>
+        <ComboBox Width="307" Margin="777,415,0,0" Height="33" CornerRadius="10,10,10,10">
+            <x:String>PayPal</x:String>
+            <x:String>Tranferencia Bancaria</x:String>
+            <x:String>Bizum</x:String>
+            <x:String>Tarjeta de Crédito</x:String>
+        </ComboBox>
+        <ComboBox Width="307" Margin="777,505,0,0" Height="33" 
+        SelectionChanged="ComboBox_SelectionChanged" CornerRadius="10,10,10,10">
+            <x:String>Andalucia</x:String>
+            <x:String>Aragón</x:String>
+            <x:String>Asturias</x:String>
+            <x:String>Baleares</x:String>
+            <x:String>Canarias</x:String>
+            <x:String>Cantabria</x:String>
+            <x:String>Castilla y León</x:String>
+            <x:String>Castilla-La-Mancha</x:String>
+            <x:String>Cataluña</x:String>
+            <x:String>Comunidad Valenciana</x:String>
+            <x:String>Extremadura</x:String>
+            <x:String>Galicia</x:String>
+            <x:String>Comunidad de Madrid</x:String>
+            <x:String>Región de Murcia</x:String>
+            <x:String>Comunidad Foral de Navarra</x:String>
+            <x:String>País Vasco</x:String>
+            <x:String>La Rioja</x:String>
+            <x:String>Ceuta</x:String>
+            <x:String>Melilla</x:String>
+        </ComboBox>
+
+    </Grid>
+</Page>
+    

@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="ProyectoUWPEV1.Vistas.Compra"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoUWPEV1.Vistas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="802" VerticalAlignment="Top" Width="1592" Source="/Assets/3051-rojos.jpg" Stretch="Fill" Grid.RowSpan="2" Margin="4,-12,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="35,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="965" PlaceholderText="Buscar" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" CornerRadius="10,10,10,10">
+            <TextBox.RenderTransform>
+                <CompositeTransform Rotation="-0.003"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Margin="1042,113,0,0" VerticalAlignment="Top" Height="40" Width="51" RenderTransformOrigin="-1.148,-0.125">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/25313.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="504" Margin="41,194,0,0" 
+        Stroke="White" Fill ="White" VerticalAlignment="Top" Width="342" Grid.RowSpan="2" 
+        RadiusX="15.825" RadiusY="15.825"/>
+        <Rectangle HorizontalAlignment="Left" Height="504" Margin="444,194,0,0" 
+        Stroke="White" Fill ="White" VerticalAlignment="Top" Width="342" Grid.RowSpan="2" 
+        RadiusX="15.825" RadiusY="15.825"/>
+        <Rectangle HorizontalAlignment="Left" Height="504" Margin="846,194,0,0" 
+        Stroke="White" Fill ="White" VerticalAlignment="Top" Width="342" Grid.RowSpan="2" 
+        RadiusX="15.825" RadiusY="15.825" />
+        <Button x:ConnectionId='2' x:Name="btnAñadir1" Content="Añadir al carrito" Margin="110,383,0,0" 
+        Grid.Row="1" VerticalAlignment="Top" Background="Red" Width="202" 
+        CornerRadius="30,30,30,30" Height="47"                         />
+        <Button x:ConnectionId='3' x:Name="btnAñadir2" Content="Añadir al carrito" Margin="514,383,0,0" 
+        Grid.Row="1" VerticalAlignment="Top" Background="Red" Width="202" 
+        CornerRadius="30,30,30,30" Height="47"                         />
+        <Button x:ConnectionId='4' x:Name="btnAñadir3" Content="Añadir al carrito" Margin="916,383,0,0" 
+        Grid.Row="1" VerticalAlignment="Top" Background="Red" Width="202" 
+        CornerRadius="30,30,30,30" Height="47"                         />
+        <Image HorizontalAlignment="Left" Height="249" Margin="77,204,0,0" 
+        Grid.RowSpan="2" VerticalAlignment="Top" Width="269" 
+        Source="/Assets/rs7-k-carbon.jpg" Stretch="UniformToFill"/>
+        <TextBlock x:ConnectionId='5' HorizontalAlignment="Left" Height="100" Margin="77,285,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" 
+        Width="277" Foreground="Black"                                               
+        TextAlignment="Justify">
+        <Run Text="Espectacular casco de"/><Run Text=" fibra de "/><Run Text=" carbono homologado por la FIA en el año 2022. Es un casco recomendado por los mejores pilotos del mundo de la F1, Karting y WRC"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="155,233,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" Text="979.99€" VerticalAlignment="Top" 
+        Width="124" Foreground="Red" FontSize="30" FontWeight="Bold" FocusVisualPrimaryBrush="Red"/>
+        <Image HorizontalAlignment="Left" Height="223" Margin="481,220,0,0" 
+        Grid.RowSpan="2" VerticalAlignment="Top" Width="263" Source="/Assets/Mono.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="556,233,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" Text="199.99€" VerticalAlignment="Top" Width="124" 
+        Foreground="Red" FontSize="30" FontWeight="Bold" FocusVisualPrimaryBrush="Red"/>
+        <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Height="100" Margin="481,280,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" Text="Mono de Alpinestars a un gran precio e ideal para hobby. Es no homologado por lo que no se podrá usar en campeonatos profesionales. " VerticalAlignment="Top" 
+        Width="287" Foreground="Black"                                               TextAlignment="Justify"/>
+        <Image HorizontalAlignment="Left" Height="237" Margin="897,220,0,0" Grid.RowSpan="2" 
+        VerticalAlignment="Top" Width="241" Source="/Assets/botas.jpg" RenderTransformOrigin="0.45,0.886" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="971,232,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" 
+        Foreground="Red" FontSize="30" FontWeight="Bold" 
+        FocusVisualPrimaryBrush="Red"><Run Text="99.95€"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Height="80" Margin="880,280,0,0" 
+        Grid.Row="1" TextWrapping="Wrap" Text="Botas de Alpinestars homologadas por la FIA en 2022.  Listos para correr cualquier tipo de campoenato. Ideal para uso en exterior 
+        incluido el clima lluvioso." VerticalAlignment="Top" Width="277" 
+        Foreground="Black"                                               
+        TextAlignment="Justify"/>
+        <Image HorizontalAlignment="Left" Height="60" Margin="1137,106,0,0" 
+        VerticalAlignment="Top" Width="47" Source="/Assets/cart.png"/>
+        <Rectangle x:ConnectionId='8' x:Name="bckCircle" HorizontalAlignment="Left" Height="24" 
+        Margin="1166,100,0,0" Stroke="Black" Fill="Black" 
+        VerticalAlignment="Top" Width="27" RadiusX="23" RadiusY="23" Visibility="Collapsed"/>
+        <TextBlock x:ConnectionId='9' x:Name="txtCantidad" HorizontalAlignment="Left" Height="17" 
+        Margin="1172,100,0,0" TextWrapping="Wrap" Text="10" 
+        VerticalAlignment="Top" Width="18" FocusVisualPrimaryBrush="Black" 
+        SelectionHighlightColor="Black" FocusVisualSecondaryBrush="Black" 
+                                                        Visibility="Collapsed"/>
+    </Grid>
+</Page>
+

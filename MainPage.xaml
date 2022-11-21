@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="ProyectoUWPEV1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoUWPEV1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="961*"/>
+            <ColumnDefinition Width="320*"/>
+        </Grid.ColumnDefinitions>
+        <NavigationView  x:Name="NavigationViewControl" ItemInvoked="NavigationViewControl_ItemInvoked" 
+        Loaded="NavigationViewControl_Loaded" SelectionChanged="NavigationViewControl_SelectionChanged" 
+        BackRequested="NavigationViewControl_BackRequested" 
+        IsBackEnabled = "{Binding ElementName=ContentFrame,Path=CanGoBack}" 
+        VerticalAlignment="Bottom" OpenPaneLength="300" PaneDisplayMode="Auto" Grid.ColumnSpan="2">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Home" x:Name="Home" Icon="Home" Tag="home"/>
+                <NavigationViewItem Content="Login" x:Name="Login" Icon="Contact" Tag="login"/>
+                <NavigationViewItem Content="Compra" x:Name="Compra" Icon="Shop" Tag="compra"/>
+                <NavigationViewItem Content="Registro" x:Name="Registro" Icon="AddFriend" Tag="registro"/>
+                <NavigationViewItem Content="Derecha" x:Name="right" Icon="Forward" Tag="right"/>
+                <NavigationViewItem Content="Izquierda" x:Name="left" Icon="Back" Tag="left"/>
+                <NavigationViewItem Content="Arriba" x:Name="up" Icon="Up" Tag="up"/>
+                <NavigationViewItem Content="Abajo" x:Name="down" Icon="Download" Tag="down"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="ContentFrame" NavigationFailed="ContentFrame_NavigationFailed"></Frame>
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger
+                        MinWindowWidth="{x:Bind NavigationViewControl.CompactModeThresholdWidth}" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <!-- Remove the next 3 lines for left-only navigation. -->
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="Top"/>
+                        <Setter Target="NavViewSearchBox.Width" Value="200"/>
+                        <Setter Target="MainPagesHeader.Visibility" Value="Collapsed"/>
+                        <!-- Leave the next line for left-only navigation. -->
+                        <Setter Target="ContentFrame.Padding" Value="24,0,24,24"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+    </Grid>
+
+</Page>

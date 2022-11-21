@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-1O7CRAT</Machine>
+    <WindowsUser>formu</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>22bea357-2b0a-4da9-8b3e-52c5508e7370</PackageIdentityName>
+    <PackageIdentityPublisher>CN=formu</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\formu\source\repos\ProyectoUWPEV1\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>33BDBBC4D5C031A3DEA0E8A1DA6D90775F16C69502859866AC959D8ABBECDC39</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>22bea357-2b0a-4da9-8b3e-52c5508e7370_1.0.0.0_x86__hfmj18hm1mdvt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>22bea357-2b0a-4da9-8b3e-52c5508e7370_hfmj18hm1mdvt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>22bea357-2b0a-4da9-8b3e-52c5508e7370</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=formu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-11-19T07:28:01.221</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\ProyectoUWPEV1.exe">
+      <PackagePath>entrypoint\ProyectoUWPEV1.exe</PackagePath>
+      <Modified>2022-11-19T07:27:59.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T20:24:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T02:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\25313.png">
+      <PackagePath>Assets\25313.png</PackagePath>
+      <Modified>2022-11-17T11:52:35.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\ad9b00c0-ab9b-4c38-b5b7-f603b39c2ca5.png">
+      <PackagePath>Assets\ad9b00c0-ab9b-4c38-b5b7-f603b39c2ca5.png</PackagePath>
+      <Modified>2022-11-14T21:50:37.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\cart.png">
+      <PackagePath>Assets\cart.png</PackagePath>
+      <Modified>2022-11-17T13:10:50.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Circle.png">
+      <PackagePath>Assets\Circle.png</PackagePath>
+      <Modified>2022-11-17T08:03:27.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\F1Logo.png">
+      <PackagePath>Assets\F1Logo.png</PackagePath>
+      <Modified>2022-11-14T21:43:03.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\plus-icon-plus-svg-png-icon-download-1.png">
+      <PackagePath>Assets\plus-icon-plus-svg-png-icon-download-1.png</PackagePath>
+      <Modified>2022-11-17T07:57:28.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Usuario.png">
+      <PackagePath>Assets\Usuario.png</PackagePath>
+      <Modified>2022-11-17T09:18:21.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-10-17T08:06:07.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-17T08:06:07.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\3051-rojos.jpg">
+      <PackagePath>Assets\3051-rojos.jpg</PackagePath>
+      <Modified>2022-11-14T21:48:10.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\botas.jpg">
+      <PackagePath>Assets\botas.jpg</PackagePath>
+      <Modified>2022-11-17T12:52:47.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\kart.jpg">
+      <PackagePath>Assets\kart.jpg</PackagePath>
+      <Modified>2022-11-17T12:03:23.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Mono.jpg">
+      <PackagePath>Assets\Mono.jpg</PackagePath>
+      <Modified>2022-11-17T12:47:28.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\rs7-k-carbon.jpg">
+      <PackagePath>Assets\rs7-k-carbon.jpg</PackagePath>
+      <Modified>2022-11-17T12:02:06.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Mono.jpg">
+      <PackagePath>Mono.jpg</PackagePath>
+      <Modified>2022-11-17T12:47:09.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Assets\Flag.gif">
+      <PackagePath>Assets\Flag.gif</PackagePath>
+      <Modified>2022-11-14T22:17:37.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-11-07T07:58:26.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\ProyectoUWPEV1.xr.xml">
+      <PackagePath>ProyectoUWPEV1.xr.xml</PackagePath>
+      <Modified>2022-11-17T17:24:28.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Vistas\Compra.xbf">
+      <PackagePath>Vistas\Compra.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Vistas\Home.xbf">
+      <PackagePath>Vistas\Home.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Vistas\Login.xbf">
+      <PackagePath>Vistas\Login.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Vistas\Registro.xbf">
+      <PackagePath>Vistas\Registro.xbf</PackagePath>
+      <Modified>2022-11-19T07:27:59.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T00:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-11-18T09:29:07.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\formu\source\repos\ProyectoUWPEV1\bin\x86\Debug\Core\ProyectoUWPEV1.exe">
+      <PackagePath>ProyectoUWPEV1.exe</PackagePath>
+      <Modified>2022-11-19T07:28:01.205</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

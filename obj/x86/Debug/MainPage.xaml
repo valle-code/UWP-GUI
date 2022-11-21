@@ -1,0 +1,56 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="ProyectoUWPEV1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoUWPEV1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="961*"/>
+            <ColumnDefinition Width="320*"/>
+        </Grid.ColumnDefinitions>
+        <NavigationView x:ConnectionId='2'  x:Name="NavigationViewControl"                                                 
+                                                                                                        
+                                                            
+        IsBackEnabled = "{Binding ElementName=ContentFrame,Path=CanGoBack}" 
+        VerticalAlignment="Bottom" OpenPaneLength="300" PaneDisplayMode="Auto" Grid.ColumnSpan="2">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' Content="Home" x:Name="Home" Icon="Home" Tag="home"/>
+                <NavigationViewItem x:ConnectionId='4' Content="Login" x:Name="Login" Icon="Contact" Tag="login"/>
+                <NavigationViewItem x:ConnectionId='5' Content="Compra" x:Name="Compra" Icon="Shop" Tag="compra"/>
+                <NavigationViewItem x:ConnectionId='6' Content="Registro" x:Name="Registro" Icon="AddFriend" Tag="registro"/>
+                <NavigationViewItem x:ConnectionId='7' Content="Derecha" x:Name="right" Icon="Forward" Tag="right"/>
+                <NavigationViewItem x:ConnectionId='8' Content="Izquierda" x:Name="left" Icon="Back" Tag="left"/>
+                <NavigationViewItem x:ConnectionId='9' Content="Arriba" x:Name="up" Icon="Up" Tag="up"/>
+                <NavigationViewItem x:ConnectionId='10' Content="Abajo" x:Name="down" Icon="Download" Tag="down"/>
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='11' x:Name="ContentFrame"                                                 ></Frame>
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger x:ConnectionId='12'
+                                                                                                  />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <!-- Remove the next 3 lines for left-only navigation. -->
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="Top"/>
+                        <Setter Target="NavViewSearchBox.Width" Value="200"/>
+                        <Setter Target="MainPagesHeader.Visibility" Value="Collapsed"/>
+                        <!-- Leave the next line for left-only navigation. -->
+                        <Setter Target="ContentFrame.Padding" Value="24,0,24,24"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+    </Grid>
+
+</Page>
+
