@@ -14,5 +14,5 @@ Universal Windows Platform Development
 To load the project into Visual Studio, execute the .sln file.
 
 # How to use 
-
+This application is a Navigator page with several views to navigate. None of this views are functional but 
 
